@@ -22,12 +22,10 @@ for i in range(len(block1)):
 
 for x, y, z in zip(block1, multiplier, sum_list):
 
-    print(f"{x} | Ascii {ord(x)} | M {y} | Ascii*M: {ord(x)*y} | Hash: {z} | Hexadecimal: {hex(z)}")
+    print(f"{x} | Ascii {ord(x)} | Multi: {y} | Ascii*M: {ord(x)*y} | Hash: {z} | Hexadecimal: {hex(z)}")
 
 total_block2 = total
 for x, y, z in zip(block2, multiplier, sum_list):
     total_block2 += ord(x) * y
-    print(f"{x} | Ascii {ord(x)} | M {y} | Ascii*M: {ord(x)*y} | Hash: {total_block2} "
+    print(f"{x} | Ascii {ord(x)} | Multi: {y} | Ascii*M: {ord(x)*y} | Hash: {total_block2} "
           f"| Hexadecimal: {hex(total_block2)}")
-
-
