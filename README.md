@@ -1,21 +1,20 @@
-# Password Hash Calculator
+Custom Password Hash Exercise
 
-This Python program calculates a simple hash for a password. 
-It splits the password into two blocks, converts each character to its ASCII value, multiplies it by a growing multiplier, and adds the products to a running total. 
-Intermediate sums are displayed step by step.
+This Python script is part of a class exercise to implement a custom hashing algorithm for the password "passwort". The password is split into two blocks, and each character’s ASCII value is multiplied by a sequence of multipliers. Cumulative sums are calculated to generate a decimal hash, which is then converted to a hexadecimal string.
 
-## Features
-- Split password into two blocks
-- Calculate ASCII value of each character
-- Multiplier grows with each character
-- Display running total
-- Simple and understandable hash calculation
+The output displays:
 
-## Usage
-1. Install Python 3.x
-2. Run `python password_hash.py`
-3. Change the password in the `password` variable
-4. See table with ASCII values, multiplier, product, and hash
+Each character
 
-## Note
-This is a **simple, educational hash algorithm** and **not suitable for secure passwords**.
+ASCII value
+
+Multiplier
+
+Product (ASCII × multiplier)
+
+Running decimal hash
+
+Hexadecimal representation
+
+
+Disclaimer: This hashing algorithm was implemented as a class exercise. It is not secure and should not be used for real password storage or any security-critical applications.
