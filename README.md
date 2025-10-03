@@ -4,17 +4,17 @@ This Python script is part of a class exercise to implement a custom hashing alg
 
 The output displays:
 
-Each character
+* Each character
 
-ASCII value
+* ASCII value
 
-Multiplier
+* Multiplier
 
-Product (ASCII × multiplier)
+* Product (ASCII × multiplier)
 
-Running decimal hash
+* Running decimal hash
 
-Hexadecimal representation
+* Hexadecimal representation
 
 
 Disclaimer: This hashing algorithm was implemented as a class exercise. It is not secure and should not be used for real password storage or any security-critical applications.
